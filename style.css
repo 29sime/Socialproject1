@@ -1,0 +1,167 @@
+@import'My Project.css';
+@import'My skills.css';
+@import'About.css';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    box-sizing: border-box;
+    
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+}
+
+header{
+
+    padding-top: 10px;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    padding: 20px 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    z-index: 100;
+    
+    
+
+}
+
+.nav a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+} 
+
+nav a:hover{
+    color: rgb(207, 6, 6);
+
+}
+
+
+
+.logo{
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+    right: 20%;
+    margin-left: 170px;
+    text-decoration: none;
+}
+
+
+nav a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 20px;
+    list-style: none;
+    display: inline-block;
+    font-weight: 600;
+    font-size: larger;
+    font-size: 20px;
+}
+
+.Picture img{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    filter: drop-shadow(1px 1px 20px red);
+}
+
+.Picture img:hover{
+    transform: scale(1.1);
+    
+    
+}
+.text{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.Hi{
+    color: red;
+    align-items: left;
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+ 
+}
+
+.logo-container{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    display: flex;
+    
+}
+
+.logo1{
+    position: absolute;
+    left: 150%;
+    transition: 0.5s ease;
+    filter: drop-shadow(1px 1px 20px red);
+
+}
+
+.logo1:hover{
+    transform: scale(1.1);
+    scale: 1.1;
+    transition: 0.5s ease;
+    
+}
+
+.logo2{
+    transition: 0.5s ease;
+    filter: drop-shadow(1px 1px 20px red);
+
+}
+
+.logo2:hover{
+    transform: scale(1.1);
+    scale: 1.1;
+    transition: 0.5s ease;
+}
+
+.button{
+    position: absolute;
+    top: 120%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: red;
+}
+
+.button:hover{
+    scale: 1.1;
+    transition: 0.5s ease;
+    background: skyblue;
+    color: black;
+}
+    
+@media screen and(max-width:767px){
+    .gfg{
+        color: black;
+        text-align: center;
+    }
+}
+
+
